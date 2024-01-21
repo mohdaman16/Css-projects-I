@@ -214,18 +214,19 @@ html,body{
     #left-middle-center{
       
           grid-column: 1/3;
-          height: 90%;
+          height:30vh ;
           padding:0px 30px;
+          
           
       
           
           
       }
       #left-middle-center h1{
-          font-size: 65px;
+          font-size: 13vw;
           padding:35px 20px 10px 20px;
           
-          line-height: 15px;
+          line-height:2vw;
           
           
       }
@@ -244,8 +245,8 @@ html,body{
     #left-bottom-center p{
         padding: 0px 10px;
         font-family: Gilroy Light;
-        font-size: 15px;
-        position: relative;
+        font-size: 3vw;
+        
         font-weight: 800;
     
         
