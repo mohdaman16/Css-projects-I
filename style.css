@@ -1,0 +1,296 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #D3D6DB;
+    font-family:Gilroy Light;
+    
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 50%   ;
+    grid-template-rows: 30%  50% 20% ;
+
+}
+#left-upper-left{
+   
+    padding: 40px;
+   
+    width: 300px;
+    height: 70px;
+    
+    
+}
+#square{
+    background-color: black;
+    width: 1%;
+    height: 1%;
+    padding:10px;
+    transform: rotate(45deg);
+    
+}
+
+.left-upper-right{
+   
+    
+}
+.left-upper-right h6{
+    display: none;
+}
+.left-upper-right h4{
+    font-family:"Gilroy Light";
+    text-align: right;
+    padding: 40px 20px;
+    
+    font-weight: 800;
+    font-size: 20px;
+    
+
+}
+
+.left-upper-right h5{
+
+    font-weight: 400;
+    text-align: right;
+    padding-right: 20px;
+}
+#left-middle-center{
+  
+    grid-column: 1/3;
+   
+    
+
+    
+    
+}
+#left-middle-center h1{
+    font-size: 7vw;
+    padding: 25px;
+    line-height: 6vh;
+    font-weight: bolder;
+    
+    
+}
+#new{
+    text-align: center;
+}
+
+#left-bottom-center{
+    
+    grid-column: 1/3;
+}
+
+#left-bottom-center p{
+    padding: 30px;
+    
+    font-weight: 400;
+    font-size: 15px;
+    padding-top:50px;
+    max-width: 600px;
+}
+#right{
+   
+    grid-column: 3;
+    grid-row: 1/4;
+}
+#right video{
+    background-size: cover;
+   
+    padding:30px 100px 30px 10px;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 46%;
+    left: 48%;
+    transform: translate(-50% -50%);
+    background-color: orangered;
+    width: 80px;
+    height: 80px;
+    color: white;
+   
+    border-radius: 50%;
+    
+   
+}
+.arrow i{
+    align-self: center;
+    font-size: 50px;
+}
+@media (max-width:600px) {
+
+
+    .main{
+      
+        grid-template-columns: 50% 50%   ;
+        grid-template-rows: 60px  32%  10% ;
+    
+    }
+
+    #right{
+        
+        grid-column: 1/3;
+        grid-row: 4;
+    }
+
+
+
+    .arrow{
+        
+        top: 47%;
+        left: 43%;
+       
+        width: 80px;
+        height: 80px;
+        color: white;
+        
+        padding: px;
+       
+        border-radius: 50%;
+        transform: rotate(90deg);
+        
+        
+       
+    }
+    .arrow i{
+        align-self: center;
+        font-size: 50px;
+    }
+    #left-upper-left{
+        
+         padding: 20px ;
+        
+         
+         
+     }
+     #square{
+       
+         width: 5%;
+         height: 5%;
+         padding:10px;
+         
+         
+     }
+     .left-upper-right{
+       
+        padding: 20px;
+       
+        padding:10px 10px;
+        display: flex;
+        justify-content: end;
+        
+        
+    }
+    .left-upper-right h6{
+        display: initial;
+        font-size: 45px;
+        padding-left: 130px;
+       
+    }
+    .left-upper-right h4{
+        
+        display: none;
+        
+    
+    }
+    
+    .left-upper-right h5{
+    
+        display: none;
+    }
+    #left-middle-center{
+      
+          grid-column: 1/3;
+          height: 90%;
+          padding:0px 30px;
+          
+      
+          
+          
+      }
+      #left-middle-center h1{
+          font-size: 65px;
+          padding:35px 20px 10px 20px;
+          
+          line-height: 15px;
+          
+          
+      }
+      #new{
+        text-align: right;
+       
+      }
+      #left-bottom-center{
+       
+        grid-column: 1/3;
+       
+        
+        
+    }
+    
+    #left-bottom-center p{
+        padding: 0px 10px;
+        font-family: Gilroy Light;
+        font-size: 15px;
+        position: relative;
+        font-weight: 800;
+    
+        
+        top: 0%;
+        
+        
+        
+        max-width: 600px;
+    }
+    
+ 
+    #right video{
+        background-size: cover;
+       
+        padding: 10px;
+        padding-top: 20px;
+        width: 100vw;
+        height:50vh;
+        object-fit: cover;
+        object-position: 0% 10%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
